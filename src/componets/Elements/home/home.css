@@ -1,18 +1,29 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-.pico{
+
+.pico {
     color: red;
     font-size: 30px;
     text-align: center;
 }
 
-img {
+.picow {
     width: 150px;
     height: 150px;
 }
- button{
+
+button {
     align-items: center;
+}
+
+footer {
+    margin-top: auto; /* Empurra o footer para o final */background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
 }
